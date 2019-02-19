@@ -1,0 +1,89 @@
+.contenedor{
+	border: black; 
+}
+.contenido{
+	border: 2px solid black; 
+background: #F2F2F2;
+width: 22%;
+height: 440px;
+margin: auto;
+text-align: center;
+}
+#b1{
+	cursor: pointer;
+	border: none; 
+	background: #BD4C4C;
+	color: white;
+	border-radius: 4px;
+	height: 60px;
+	width: 70px;
+ }
+ #b2{
+	cursor: pointer;
+	border: none; 
+	background: #B1B5B5;
+	color: white;
+	border-radius: 4px;
+	height: 60px;
+	width: 70px;
+ }
+ #b3{
+	cursor: pointer;
+	border: none; 
+	background: #B1B5B5;
+	color: white;
+	border-radius: 4px;
+	height: 60px;
+	width: 70px;
+ }
+ #b4{
+	cursor: pointer;
+	border: none; 
+	background: #BD4C4C;
+	color: white;
+	border-radius: 4px;
+	height: 189px;
+	width: 70px;
+ }
+ #b1:hover{
+	cursor: pointer;
+	border: none; 
+	background: #E29393;
+	color: white;
+	border-radius: 4px;
+	height: 60px;
+	width: 70px;
+ }
+ #b2:hover{
+	cursor: pointer;
+	border: none; 
+	background: #E29393;
+	color: white;
+	border-radius: 4px;
+	height: 60px;
+	width: 70px;
+ }
+ #b4:hover{
+	cursor: pointer;
+	border: none; 
+	background: #E29393;
+	color: white;
+	border-radius: 4px;
+	height: 189px;
+	width: 70px;
+ }
+ input{
+ 	margin: auto;
+ 	width:80%;
+	height:50px;
+	border-bottom:1px solid black;
+ }
+ .t1{
+ display: inline-block;
+ }
+ .t2{
+ display: inline-block;
+ margin-top: -200px;
+ position: absolute;
+ margin-left: 74px;
+ }

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Calculadora </title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/calcu.css">
+</head>
+	<body>
+	<div class="contenedor">
+		<br>
+		<div class="contenido">
+			<br>
+			<div class="numeros"></div>
+			<input class="result" id="result" readonly="readonly"></input>
+			<br>
+			<br>
+			<table class="t1">
+			<tr>
+				<td><button id="b1" onclick="vaciar()">C</button></td>
+				<td><button id="b1" onclick="Sign('*')">x</button></td>
+				<td><button id="b1" onclick="Sign('/')">÷</button></td>
+				<td><button id="b1" onclick="Sign('+')">+</button></td>
+			</tr>
+			<tr>
+				<td><button id="b2" onclick="Nu('7')">7</button></td>
+				<td><button id="b2" onclick="Nu('8')">8</button></td>
+				<td><button id="b2" onclick="Nu('9')">9</button></td>
+				<td><button  id="b1" onclick="Sign('-')">-</button></td>
+			</tr>
+			<tr>
+				<td><button  id="b2" onclick="Nu('4')">4</button></td>
+				<td><button  id="b2" onclick="Nu('5')">5</button></td>
+				<td><button  id="b2" onclick="Nu('6')">6</button></td>
+			</tr>
+			<tr>
+				<td><button id="b2" onclick="Nu('1')">1</button></td>
+				<td><button id="b2" onclick="Nu('2')">2</button></td>
+				<td><button id="b2" onclick="Nu('3')">3</button></td>
+			</tr>
+			<tr>
+				<td><button id="b3" onclick="Nu('0')">0</button></td>
+				<td><button id="b1" onclick="Sign(',')">,</button></td>
+				<td><button id="b1" onclick="Sign('%')">%</button></td>
+			</tr>
+		</table>
+		<table class="t2">
+			<tr>
+				<td><button id="b4" onclick="Ig()">=</button></td>
+			</tr>
+		</table>
+	</div>
+	</body>
+	<script type="text/javascript" src="js/ClaseCalculadora.js">
+		</script>
+</html>
